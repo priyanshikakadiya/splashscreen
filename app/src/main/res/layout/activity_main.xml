@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    android:background="#DDDDDD"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:id="@+id/btnListView"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="List View"
+        app:layout_constraintEnd_toStartOf="@id/btnRecyclerView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRecyclerView"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Recycler View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnListView"
+        app:layout_constraintTop_toTopOf="@+id/btnListView" />
+
+    <Button
+        android:id="@+id/btnAlertBox"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Alert Box"
+        app:layout_constraintEnd_toStartOf="@id/btnSnackBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnListView" />
+
+    <Button
+        android:id="@+id/btnSnackBar"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="SnackBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnAlertBox"
+        app:layout_constraintTop_toTopOf="@+id/btnAlertBox" />
+
+    <Button
+        android:id="@+id/btnPassData"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Pass Data"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@id/btnGridView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAlertBox" />
+
+    <Button
+        android:id="@+id/btnGridView"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Go to GridView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnPassData"
+        app:layout_constraintTop_toTopOf="@+id/btnPassData" />
+
+    <Button
+        android:id="@+id/btnFragment"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Open Fragments"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@id/btnWebView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPassData" />
+
+    <Button
+        android:id="@+id/btnWebView"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Web View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnFragment"
+        app:layout_constraintTop_toTopOf="@+id/btnFragment" />
+
+    <Button
+        android:id="@+id/btnRoomDB"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Room-DB"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFragment" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "538142410446",
+    "project_id": "splashscreen-82947",
+    "storage_bucket": "splashscreen-82947.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538142410446:android:a25ddd51efd247a65cf29f",
+        "android_client_info": {
+          "package_name": "com.app.splashscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538142410446-qlaudq0lepcjst2krbgu50dr8ssd0her.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7bnA777fp8HJgxIYBsTyaOt6tmN6TOf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538142410446-qlaudq0lepcjst2krbgu50dr8ssd0her.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
